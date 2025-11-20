@@ -7,4 +7,11 @@
     <string name="alamat"> ALAMAT</string>
     <string name="tampilan"> TAMPILAN</string>
     <string name="home"> Form Isian</string>
+    <string name="laki">Laki-laki</string>
+    <string name="wanita">Perempuan</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="detail">Data Siswa</string>
+    <string name="nama">Nama Lengkap</string>
+
+
 </resources>
