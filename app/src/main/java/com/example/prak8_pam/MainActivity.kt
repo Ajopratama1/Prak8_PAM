@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.prak8_pam.ui.theme.Prak8_PAMTheme
-import com.example.prak8_pam.ui.theme.Prak8_PAMTheme
-import com.example.prak8_pam.view.uicontroller.DataApp
+import com.example.prak8_pam.view.uicontroller.SiswaApp
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Prak8_PAMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    DataApp(
+                    SiswaApp(
 
                         modifier = Modifier.padding(innerPadding)
                     )
